@@ -1,4 +1,5 @@
   		
+	<?php include('tooltip.php'); ?>			
 	<div class="navbar navbar-fixed-top navbar-inverse">
             <div class="navbar-inner">
                 <div class="container">
@@ -12,7 +13,7 @@
 					<li class="divider-vertical"></li><li class=""><a  rel="tooltip"  data-placement="bottom" title="Home" id="home"   href="index.php"><i class="icon-home icon-large"></i>&nbsp;Trang chủ</a> </li>
 					<li class="divider-vertical"></li>
 					<li class="">
-					<a rel="tooltip"  data-placement="bottom" title="Click Here to About" id="about" href=""><i class="icon-info-sign icon-large"></i>&nbsp;Giới thiệu</a> 
+					<a rel="tooltip"  data-placement="bottom" title="Click Here to About" id="about" href="about.php"><i class="icon-info-sign icon-large"></i>&nbsp;Giới thiệu</a> 
 					</li>
 					<li class="divider-vertical"></li>
 					<li class="">
