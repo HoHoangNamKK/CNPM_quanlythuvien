@@ -16,7 +16,7 @@
 					</li>
 					<li class="divider-vertical"></li>
 					<li class="">
-					<a rel="tooltip"  data-placement="bottom" title="Click Here to About" id="login" href=""><i class="icon-user icon-large"></i>&nbsp;Admin</a>
+					<a rel="tooltip"  data-placement="bottom" title="Click Here to About" id="login" href="librarian/index.php"><i class="icon-user icon-large"></i>&nbsp;Admin</a>
 					</li>
 				
 					<li class="divider-vertical"></li>
