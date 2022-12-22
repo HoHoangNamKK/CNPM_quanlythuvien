@@ -7,16 +7,9 @@
                         <span class="icon-bar"></span>
                     </a>
                     <div class="nav-collapse collapse">
-                        <!-- .nav, .navbar-search, .navbar-form, etc -->
 					<ul class="nav">
-			
-
-					  
-				
-					
 					</ul>
-					 
-                    
+                
                     </div>
                 </div>
             </div>
