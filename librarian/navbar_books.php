@@ -1,4 +1,4 @@
-<div class="navbar navbar-fixed-top navbar-inverse">
+      <div class="navbar navbar-fixed-top navbar-inverse">
             <div class="navbar-inner">
                 <div class="container">
                     <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -26,6 +26,4 @@
                 </div>
             </div>
         </div>
-		
-<?php include('search_form.php'); ?>
- 
+ <?php include('search_form.php'); ?>
