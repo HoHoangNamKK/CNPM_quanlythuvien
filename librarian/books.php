@@ -52,7 +52,7 @@
 							
 									
 
-								  $user_query=mysqli_query($conn,"select * from book where status != 'Archive'")or die(mysqli_error());
+								  $user_query=mysqli_query($conn,"select * from book where status != 'Archive'");
 									while($row=mysqli_fetch_array($user_query)){
 									$id=$row['book_id'];  
 									$cat_id=$row['category_id'];
@@ -66,7 +66,7 @@
 									/* $t4otal =  $book_copies  - $borrow_details;
 									
 									echo $total; */
-											$cat_query = mysqli_query($conn,"select * from category where category_id = '$cat_id'")or die(mysqli_error());
+											$cat_query = mysqli_query($conn,"select * from category where category_id = '$cat_id'");
 											$cat_row = mysqli_fetch_array($cat_query);
 									?>
 									<tr class="del<?php echo $id ?>">
