@@ -8,7 +8,7 @@
                     </a>
                     <div class="nav-collapse collapse">
 					<ul class="nav">
-                    <li><a href="logout.php"><i class="icon-signout icon-large"></i>&nbsp;Trang chủ</a></li>
+                    <li><a href="logout.php"><i class="icon-home icon-large"></i>&nbsp;Trang chủ</a></li>
 					</ul>
                 
                     </div>
