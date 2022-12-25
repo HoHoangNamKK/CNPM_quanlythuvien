@@ -9,7 +9,7 @@
                     <div class="nav-collapse collapse">
 					<ul class="nav">
 					<li class="active"><a href="dashboard.php"><i class="icon-home icon-large"></i>&nbsp;Trang chủ</a></li>
-					<li><i class="icon-user icon-large"></i>&nbsp;Tài khoản</a></li>
+					<li><a href="users.php"><i class="icon-user icon-large"></i>&nbsp;Tài khoản</a></li>
 					<?php 
 					include('dropdown.php');
 					?>
