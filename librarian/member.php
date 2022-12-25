@@ -43,8 +43,8 @@
 									<td><?php echo $row['status']; ?></td> 
 									<?php include('toolttip_edit_delete.php'); ?>
                                     <td width="100">
-                                        <a rel="tooltip"  title="Delete" id="<?php echo $id; ?>" href="#delete_student<?php echo $id; ?>" data-toggle="modal"    class="btn btn-danger"><i class="icon-trash icon-large"></i></a>
-                                        <?php include('delete_student_modal.php'); ?>
+                                        <a rel="tooltip"  title="Delete" id="<?php echo $id; ?>" href="#delete_member_modal<?php echo $id; ?>" data-toggle="modal"    class="btn btn-danger"><i class="icon-trash icon-large"></i></a>
+                                        <?php include('delete_member_modal.php'); ?>
 										<a  rel="tooltip"  title="Edit" id="e<?php echo $id; ?>" href="edit_member.php<?php echo '?id='.$id; ?>" class="btn btn-success"><i class="icon-pencil icon-large"></i></a>
 										
                                     </td>
