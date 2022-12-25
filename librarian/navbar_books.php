@@ -15,7 +15,7 @@
 					?>
 					<li class="active"><a href="books.php"><i class="icon-book icon-large"></i>&nbsp;Sách</a></li>
 					<li><a href="member.php"><i class="icon-group icon-large"></i>&nbsp;Thành viên</a></li>
-					<li><i class="icon-list-alt icon-large"></i>&nbsp;Lưu trữ</a></li>
+					<li><a href="archive.php"><i class="icon-list-alt icon-large"></i>&nbsp;Lưu trữ</a></li>
 					<li><a href="#myModal" data-toggle="modal"><i class="icon-search icon-large"></i>&nbsp;Tìm kiếm</a></li>
 					<li><a href="logout.php"><i class="icon-signout icon-large"></i>&nbsp;Đăng xuất</a></li>
 					</ul>
