@@ -10,7 +10,7 @@
 											<a href="#add_user" data-toggle="modal" ><i class="icon-plus icon-large"></i>&nbsp;<strong>Thêm tài khoản</strong></a>
 											</li>
 										</ul>
-						
+            <?php include('modal_add_user.php'); ?>
 			</div>
 			<div class="span10">
 			
