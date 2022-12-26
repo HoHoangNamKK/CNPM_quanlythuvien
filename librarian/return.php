@@ -4,7 +4,11 @@
     <div class="container">
 		<div class="margin-top">
 			<div class="row">	
-				<div class="span12">		
+				<div class="span12">
+                <ul class="nav nav-pills">
+										<li   class="active"><a href="delete_return.php">xóa</a></li>
+									
+									</ul>		
 						<div class="alert alert-info"><strong>Sách đã trả</strong></div>
                             <table cellpadding="0" cellspacing="0" border="0" class="table" id="example">
 								<div class="pull-right">
