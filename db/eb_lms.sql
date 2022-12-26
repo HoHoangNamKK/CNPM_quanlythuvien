@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th12 15, 2022 lúc 03:07 PM
+-- Thời gian đã tạo: Th12 26, 2022 lúc 08:05 AM
 -- Phiên bản máy phục vụ: 10.4.25-MariaDB
 -- Phiên bản PHP: 8.1.10
 
@@ -54,23 +54,24 @@ CREATE TABLE `book` (
 --
 
 INSERT INTO `book` (`book_id`, `book_title`, `category_id`, `author`, `book_copies`, `Describe`, `book_pub`, `publisher_name`, `isbn`, `copyright_year`, `date_receive`, `date_added`, `status`) VALUES
-(15, 'Natural Resources', 8, 'Robin Kerrod', 15, 'ádasdasdgbvchxjkzvxcvlkfhnasd,czxbnc,xzbczx,ncbzmn,xvzxjflashdasbd', 'Marshall Cavendish Corporation', 'Marshall', '1-85435-628-3', 1997, '', '2013-12-11 06:34:27', 'Mới'),
-(17, 'Algebra 1', 3, 'Carolyn Bradshaw, Michael Seals', 35, NULL, 'Pearson Education, Inc', 'Prentice Hall, New Jersey', '0-13-125087-6', 2004, '', '2013-12-11 06:39:17', 'Hư hỏng'),
-(18, 'The Philippine Daily Inquirer', 7, '..', 3, NULL, 'Pasay City', '..', '..', 2013, '', '2013-12-11 06:41:53', 'Mới'),
-(19, 'Science in our World', 4, 'Brian Knapp', 25, NULL, 'Regency Publishing Group', 'Prentice Hall, Inc', '0-13-050841-1', 1996, '', '2013-12-11 06:44:44', 'Mất'),
-(20, 'Literature', 9, 'Greg Glowka', 20, NULL, 'Regency Publishing Group', 'Prentice Hall, Inc', '0-13-050841-1', 2001, '', '2013-12-11 06:47:44', 'Cũ'),
-(21, 'Lexicon Universal Encyclopedia', 5, 'Lexicon', 10, NULL, 'Lexicon Publication', 'Pulication Inc., Lexicon', '0-7172-2043-5', 1993, '', '2013-12-11 06:49:53', 'Cũ'),
-(22, 'Science and Invention Encyclopedia', 5, 'Clarke Donald, Dartford Mark', 16, NULL, 'H.S. Stuttman inc. Publishing', 'Publisher , Westport Connecticut', '0-87475-450-x', 1992, '', '2013-12-11 06:52:58', 'Mới'),
-(23, 'Integrated Science Textbook ', 4, 'Merde C. Tan', 15, NULL, 'Vibal Publishing House Inc.', '12536. Araneta Avenue Corner Ma. Clara St., Quezon City', '971-570-124-8', 2009, '', '2013-12-11 06:55:27', 'Mới'),
-(24, 'Algebra 2', 3, 'Glencoe McGraw Hill', 15, NULL, 'The McGrawHill Companies Inc.', 'McGrawhill', '978-0-07-873830-2', 2008, '', '2013-12-11 06:57:35', 'Mới'),
-(25, 'Wiki at Panitikan ', 7, 'Lorenza P. Avera', 28, NULL, 'JGM & S Corporation', 'JGM & S Corporation', '971-07-1574-7', 2000, '', '2013-12-11 06:59:24', 'Hư hỏng'),
-(26, 'English Expressways TextBook for 4th year', 9, 'Virginia Bermudez Ed. O. et al', 23, NULL, 'SD Publications, Inc.', 'Gregorio Araneta Avenue, Quezon City', '978-971-0315-33-8', 2007, '', '2013-12-11 07:01:25', 'Mới'),
-(27, 'Asya Pag-usbong Ng Kabihasnan ', 8, 'Ricardo T. Jose, Ph . D.', 21, NULL, 'Vibal Publishing House Inc.', 'Araneta Avenue . Cor. Maria Clara St., Quezon City', '971-07-2324-3', 2008, '', '2013-12-11 07:02:56', 'Mới'),
-(28, 'Literature (the readers choice)', 9, 'Glencoe McGraw Hill', 20, NULL, '..', 'the McGrawHill Companies Inc', '0-02-817934-x', 2001, '', '2013-12-11 07:05:25', 'Hư hỏng'),
-(29, 'Beloved a Novel', 9, 'Toni Morrison', 13, NULL, '..', 'Alfred A. Knoff, Inc', '0-394-53597-9', 1987, '', '2013-12-11 07:07:02', 'Cũ'),
-(30, 'Silver Burdett Engish', 2, 'Judy Brim', 12, NULL, 'Silver Burdett Company', 'Silver', '0-382-03575-5', 1985, '', '2013-12-11 09:22:50', 'Cũ'),
-(31, 'The Corporate Warriors (Six Classic Cases in American Business)', 8, 'Douglas K. Ramsey', 8, NULL, 'Houghton Miffin Company', '..', '0-395-35487-0', 1987, '', '2013-12-11 09:25:32', 'Cũ'),
-(32, 'Introduction to Information System', 9, 'Cristine Redoblo', 10, NULL, 'CHMSC', 'Brian INC', '123-132', 2013, '', '2014-01-17 19:00:10', 'Mới');
+(1, 'Big Picture Book Out Doors – Cuốn Sách Tranh Khổng Lồ Về Thiên Nhiên', 8, 'Nhiều tác giả', 15, 'Mô tả bức tranh thiên nhiên', 'Marshall Cavendish Corporation', 'Marshall', '1-85435-628-3', 1997, '', '2013-12-11 06:34:27', 'Mới'),
+(2, 'Toán Học, Một Thiên Tiểu Thuyết', 3, 'Nhiều tác giả', 35, 'Tiểu thuyết, lịch sử toán học', 'Pearson Education, Inc', 'Prentice Hall, New Jersey', '0-13-125087-6', 2004, '', '2013-12-11 06:39:17', 'Hư hỏng'),
+(3, 'Cẩm nang báo chí trực tuyến ', 7, 'Paul Bradshaw', 3, 'Những hiện tượng đang nổi hot hiện nay', 'Pasay City', '..', '..', 2013, '', '2013-12-11 06:41:53', 'Mới'),
+(4, 'Các chòm sao – Toàn cảnh bầu trời về đêm ', 4, 'Yakov Isidorovich Perelman', 25, 'Thiên văn học thể hiện qua những chi tiết, tình tiết hấp dẫn.', 'Regency Publishing Group', 'Prentice Hall, Inc', '0-13-050841-1', 1996, '', '2013-12-11 06:44:44', 'Mất'),
+(5, '“Nhà đầu tư thông minh” của Benjamin Graham ', 9, 'Benjamin Graham', 20, 'Lối đi, hướng đi đầu tư thông minh, đúng đắn.', 'Regency Publishing Group', 'Prentice Hall, Inc', '0-13-050841-1', 2001, '', '2013-12-11 06:47:44', 'Cũ'),
+(6, 'Sách bách khoa toàn thư khoa học Encyclopedia', 5, 'Nhiều tác giả.', 10, 'Bách khoa toàn thư', 'Lexicon Publication', 'Pulication Inc., Lexicon', '0-7172-2043-5', 1993, '', '2013-12-11 06:49:53', 'Cũ'),
+(7, 'Sách bách khoa toàn thư không gian', 5, 'Sách bách khoa toàn thư không gian', 16, 'Bách khoa toàn thư', 'H.S. Stuttman inc. Publishing', 'Publisher , Westport Connecticut', '0-87475-450-x', 1992, '', '2013-12-11 06:52:58', 'Mới'),
+(8, 'Các thế giới song song ', 4, 'Michio Kaku', 15, 'Tình tiết hư cấu, sự hiện diện của thế giới song song', 'Vibal Publishing House Inc.', '12536. Araneta Avenue Corner Ma. Clara St., Quezon City', '971-570-124-8', 2009, '', '2013-12-11 06:55:27', 'Mới'),
+(9, '17 Phương Trình Thay Đổi Thế Giới', 3, 'Nhiều tác giả', 15, 'Phương trình bật cao giúp thay đổi mọi thứ.', 'The McGrawHill Companies Inc.', 'McGrawhill', '978-0-07-873830-2', 2008, '', '2013-12-11 06:57:35', 'Mới'),
+(10, 'Báo chí dưới góc nhìn thực tiễn ', 7, 'TS. Nguyễn Thế Kỷ', 28, 'Nói về góc nhìn của thực tiễn.', 'JGM & S Corporation', 'JGM & S Corporation', '971-07-1574-7', 2000, '', '2013-12-11 06:59:24', 'Hư hỏng'),
+(11, '“Cổ phiếu bình thường và lợi nhuận bất thường” của Philip Fisher', 9, 'Ghi lại', 23, 'Sự tính toán, am hiểu bậc thầy', 'SD Publications, Inc.', 'Gregorio Araneta Avenue, Quezon City', '978-971-0315-33-8', 2007, '', '2013-12-11 07:01:25', 'Mới'),
+(12, 'Horrible Science – Thiên Nhiên Hoang Dã', 8, 'Nhiều tác giả', 21, 'Thiên nhiên kì thú.', 'Vibal Publishing House Inc.', 'Araneta Avenue . Cor. Maria Clara St., Quezon City', '971-07-2324-3', 2008, '', '2013-12-11 07:02:56', 'Mới'),
+(13, '“Sự dồi dào phi lý” của Robert Shiller', 9, 'Ghi lại ', 20, 'Sự phi lý được công nhận.', 'tokyolite', 'the McGrawHill Companies Inc', '0-02-817934-x', 2001, '', '2013-12-11 07:05:25', 'Hư hỏng'),
+(14, '“Lý thuyết về giá trị đầu tư” của John Burr Williams', 9, 'Nhiều tác giả', 13, 'Kĩ năng, kinh nghiệm thực tiễn về đầu tư', 'chinna', 'Alfred A. Knoff, Inc', '0-394-53597-9', 1987, '', '2013-12-11 07:07:02', 'Cũ'),
+(15, 'Silver Burdett Engish', 2, 'Judy Brim', 12, 'Học tốt tiếng anh', 'Silver Burdett Company', 'Silver', '0-382-03575-5', 1985, '', '2013-12-11 09:22:50', 'Cũ'),
+(16, 'The Corporate Warriors (Six Classic Cases in American Business)', 8, 'Douglas K. Ramsey', 8, 'Kĩ về về mọi thứ ', 'Houghton Miffin Company', '..', '0-395-35487-0', 1987, '', '2013-12-11 09:25:32', 'Cũ'),
+(17, 'Introduction to Information System', 9, 'Cristine Redoblo', 10, 'Tài liệu tuyệt mật.', 'CHMSC', 'Brian INC', '123-132', 2013, '', '2014-01-17 19:00:10', 'Mới'),
+(38, 'a', 1, 'sa', 2, 'Hai', 'a', 'a', 'adsad', 321, '', '2022-12-26 14:04:17', 'Archive');
 
 -- --------------------------------------------------------
 
@@ -90,13 +91,8 @@ CREATE TABLE `borrow` (
 --
 
 INSERT INTO `borrow` (`borrow_id`, `member_id`, `date_borrow`, `due_date`) VALUES
-(484, 55, '2014-03-20 23:50:27', '21/03/2014'),
-(483, 55, '2014-03-20 23:49:34', '21/03/2014'),
-(482, 52, '2014-03-20 23:38:22', '03/01/2014'),
-(485, 53, '2022-12-15 18:09:00', '17/12/2022'),
-(486, 53, '2022-12-15 18:38:55', '30/12/2022'),
-(487, 54, '2022-12-15 19:08:51', '28/12/2022'),
-(488, 57, '2022-12-15 20:38:01', '21/12/2022');
+(494, 65, '2022-12-26 14:00:03', '30/12/2022'),
+(492, 56, '2022-12-26 13:57:14', '28/12/2022');
 
 -- --------------------------------------------------------
 
@@ -117,14 +113,10 @@ CREATE TABLE `borrowdetails` (
 --
 
 INSERT INTO `borrowdetails` (`borrow_details_id`, `book_id`, `borrow_id`, `borrow_status`, `date_return`) VALUES
-(164, 16, 484, 'đã trả', '2022-12-15 19:08:39'),
-(162, 15, 482, 'returned', '2022-12-15 17:52:20'),
-(163, 15, 483, 'đã trả', '2022-12-15 19:08:41'),
-(165, 15, 485, 'đã trả', '2022-12-15 19:08:37'),
-(166, 35, 486, 'đã trả', '2022-12-15 19:08:43'),
-(167, 15, 487, 'đã trả', '2022-12-15 20:38:13'),
-(168, 15, 488, 'đã trả', '2022-12-15 20:41:14'),
-(169, 17, 488, 'đã trả', '2022-12-15 20:38:44');
+(184, 2, 494, 'Đang mượn', ''),
+(183, 1, 494, 'Đang mượn', ''),
+(180, 2, 492, 'đã trả', '2022-12-26 14:00:09'),
+(179, 1, 492, 'Đang mượn', '');
 
 -- --------------------------------------------------------
 
@@ -188,19 +180,10 @@ CREATE TABLE `member` (
 --
 
 INSERT INTO `member` (`member_id`, `firstname`, `lastname`, `gender`, `address`, `contact`, `type`, `year_level`, `status`) VALUES
-(52, 'Mark', 'Sanchez', 'Male', 'Talisay', '', 'Teacher', 'Faculty', 'Tích cực'),
-(53, 'April Joy', 'Aguilar', 'Nữ', 'E.B. Magalona', '', 'Sinh viên', 'Năm hai', 'Tích cực'),
-(54, 'Alfonso', 'Pancho', 'Nam', 'E.B. Magalona', '', 'Student', 'First Year', 'Tích cực'),
-(55, 'Jonathan ', 'Antanilla', 'Male', 'E.B. Magalona', '', 'Student', 'Fourth Year', 'Tích cực'),
-(56, 'Renzo Bryan', 'Pedroso', 'Male', 'Silay City', '', 'Student', 'Third Year', 'Tích cực'),
-(57, 'Eleazar', 'Duterte', 'Male', 'E.B. Magalona', '', 'Student', 'Second Year', 'Tích cực'),
-(58, 'Ellen Mae', 'Espino', 'Female', 'E.B. Magalona', '', 'Student', 'First Year', 'Tích cực'),
-(59, 'Ruth', 'Magbanua', 'Female', 'E.B. Magalona', '', 'Student', 'Second Year', 'Tích cực'),
-(60, 'Shaina Marie', 'Gabino', 'Female', 'Silay City', '', 'Student', 'Second Year', 'Tích cực'),
-(62, 'Chairty Joy', 'Punzalan', 'Female', 'E.B. Magalona', '', 'Teacher', 'Faculty', 'Tích cực'),
-(63, 'Kristine May', 'Dela Rosa', 'Female', 'Silay City', '', 'Student', 'Second Year', 'Tích cực'),
-(64, 'Chinie marie', 'Laborosa', 'Female', 'E.B. Magalona', '', 'Student', 'Second Year', 'Tích cực'),
-(65, 'Ruby', 'Morante', 'Female', 'E.B. Magalona', '', 'Teacher', 'Faculty', 'Tích cực');
+(54, 'Hồ Hoàng', 'Nam', 'Nam', 'Đà Nẵng', '', 'Sinh viên', 'Năm hai', 'Cấm cửa'),
+(56, 'Nguyện Thị', 'Thi', 'Nữ', 'Đà Nẵng', '', 'Sinh viên', 'Năm nhất', 'Tích cực'),
+(65, 'Thái Đăng', 'Khôi', 'Female', 'Đắk Nông', '', 'Sinh viên', 'Năm ba', 'Tích cực'),
+(69, 'Nguyễn trung', 'Sỹ', 'Nam', 'dư3', '', 'Sinh viên', 'Năm nhất', 'Tích cực');
 
 -- --------------------------------------------------------
 
@@ -243,7 +226,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`user_id`, `username`, `password`, `firstname`, `lastname`) VALUES
-(2, 'admin', 'admin', 'john', 'smith');
+(2, 'admin', 'admin', 'Hồ', 'nam'),
+(6, 'admin', 'admin', 'das', 'sad');
 
 --
 -- Chỉ mục cho các bảng đã đổ
@@ -311,19 +295,19 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT cho bảng `book`
 --
 ALTER TABLE `book`
-  MODIFY `book_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=38;
+  MODIFY `book_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=39;
 
 --
 -- AUTO_INCREMENT cho bảng `borrow`
 --
 ALTER TABLE `borrow`
-  MODIFY `borrow_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=489;
+  MODIFY `borrow_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=495;
 
 --
 -- AUTO_INCREMENT cho bảng `borrowdetails`
 --
 ALTER TABLE `borrowdetails`
-  MODIFY `borrow_details_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=170;
+  MODIFY `borrow_details_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=185;
 
 --
 -- AUTO_INCREMENT cho bảng `category`
@@ -341,7 +325,7 @@ ALTER TABLE `lost_book`
 -- AUTO_INCREMENT cho bảng `member`
 --
 ALTER TABLE `member`
-  MODIFY `member_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=69;
+  MODIFY `member_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=70;
 
 --
 -- AUTO_INCREMENT cho bảng `type`
@@ -353,7 +337,7 @@ ALTER TABLE `type`
 -- AUTO_INCREMENT cho bảng `users`
 --
 ALTER TABLE `users`
-  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
