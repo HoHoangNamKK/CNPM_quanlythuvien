@@ -95,7 +95,7 @@ $(".uniform_on").change(function(){
     if( $(".uniform_on:checked").length == max ){
 	
         $(".uniform_on").attr('disabled', 'disabled');
-		         alert('3 Books are allowed per borrow');
+		         alert('được phép mượn tối đa 3 quyển sách mỗi lần');
         $(".uniform_on:checked").removeAttr('disabled');
 		
     }else{
